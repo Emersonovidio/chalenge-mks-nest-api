@@ -5,7 +5,7 @@ import { Movie } from 'src/movies/movie.entity';
 import { CreateMovieDto } from 'src/movies/create-movie.dto';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 
-@Controller('movie')
+@Controller('api/v1/movie')
 @ApiTags('movies')
 export class MoviesController {
   constructor(@InjectRepository(Movie) private readonly moviesRepository: Repository<Movie>) {}
