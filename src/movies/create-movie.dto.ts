@@ -11,16 +11,11 @@ export class CreateMovieDto {
   @IsInt()
   @IsNumber()
   @ApiProperty()
-  year: number;
+  production: number;
 
   @MaxLength(100)
   @IsString()
   @ApiProperty()
   gendre: string;
-
-  @IsPositive()
-  @IsInt()
-  @IsNumber()
-  @ApiProperty()
-  range: number;
+ 
 }

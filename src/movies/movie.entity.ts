@@ -9,11 +9,9 @@ export class Movie {
   title: string;
 
   @Column()
-  year: number;
+  production: number;
 
   @Column()
   gendre: string;
 
-  @Column()
-  range: number;
 }
