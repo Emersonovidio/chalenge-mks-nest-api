@@ -68,6 +68,18 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
+
+
+## Tools Use
+- Typescript - 6+ months
+- Nestjs -  2+ months
+- TypeOrm - 6+ months
+- Swagger - 2+ weeks
+- Insomnia - 12+ months
+- Docker - 12+ months
+- Mysql - 12+ months
+
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
