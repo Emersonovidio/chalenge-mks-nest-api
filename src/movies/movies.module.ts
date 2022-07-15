@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { MoviesController } from 'src/movies/movies.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Movie } from './movie.entity';
+import  Movie  from './movie.entity';
+import { MoviesController } from 'src/movies/movies.controller';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Movie])],
