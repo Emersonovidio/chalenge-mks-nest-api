@@ -1,0 +1,5 @@
+{
+    "scripts": {
+      "build": "[vrud-movies-app] build --output public"
+    }
+  }
